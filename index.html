@@ -23,13 +23,20 @@
     <!-- Run BEFORE page is finished loading (before window.onload - don't add the `defer` attribute): -->
     <script src="./auth.js"></script>
     <script>
-        if (isLoggedIn() === true) window.location.replace("/posts");
+    
     </script>
 </head>
 <body>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="./posts/posts.html">Post</a>
+        <a href="./posts/profile.html">Profile</a>
+        <a href="./posts/register.html">Register</a>
+    </nav>
+    
 
     <header>
-        <h1>Welcome to <code>YOUR MICROBLOG NETWORK</code></h1>
+        <h1>Welcome to the HypeBeast Cave</h1>
     </header>
 
     <main>
@@ -41,7 +48,7 @@
             </div>
 
             <div>
-                <label for="password">Password</label>
+    <label for="password">Password</label>
                 <input type="password" id="password" minlength="6">
             </div>
 
@@ -49,6 +56,8 @@
         </form>
 
     </main>
+    <p>In the HypeBeast Cave you can be yourself and post about anything you find interesting   </p>
+
 
     <footer></footer>
 

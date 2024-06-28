@@ -53,9 +53,10 @@ function login (loginData) {
                 // informed that they have entered the wrong login info.
                 return null
             }
-
+window.localStorage.token=loginData.token
+window.localStorage.username=loginData.username 
             window.localStorage.setItem("login-data", JSON.stringify(loginData));
-            window.location.assign("/posts");  // redirect
+            window.location.assign("/posts/posts.html");  // redirect
 
             return loginData;
         });

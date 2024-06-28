@@ -16,3 +16,40 @@
 :root {
     font-size: 1rem;
 }
+body{
+    text-align: center;
+    box-sizing: content-box;
+    background-color: rgb(242, 242, 188);
+    color: rgb(31, 131, 31);
+}
+header{
+    margin-top: 1%;
+}
+
+main{
+    margin-top: 10%;
+
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+nav a{
+    background-color: black;
+    color: white; 
+    padding: 1rem;
+    display: inline-block;
+}
+.signup-box{
+    width: 350px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid black
+}
